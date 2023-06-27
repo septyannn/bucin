@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website dengan Popup</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <button onclick="tampilkanPopup()">Tampilkan Pertanyaan</button>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <h2>Pertanyaan:</h2>
+      <div id="pertanyaan1" class="pertanyaan">
+        <p>APAKAH KAMU SAYANG AKUUU??</p>
+        <button onclick="jawabanYa()">Sayang</button>
+        <button onclick="jawabanTidak()">GK</button>
+      </div>
+      <div id="pertanyaan2" class="pertanyaan">
+        <p>SERIUSS SAYANG APA GKKK?!!!</p>
+        <button onclick="jawabanYa()">SAYANG</button>
+        <button class="disabled" onclick="tampilkanjawaban()">Hahaha gk bisa di klik</button>
+      </div>
+      <div id="pertanyaan3" class="pertanyaan">
+        <p>Aku juga sayang kamu kok, aaaa psti kamu sayang banget ke akuu</p>
+        <button onclick="jawabanYa()">Iyaa aku juga sayang kamu kok</button>
+        <button class="disabled" onclick="jawabanpertanyaan()">duhh, kyk nya emang ditakdirkan milih di sebelah deh</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
